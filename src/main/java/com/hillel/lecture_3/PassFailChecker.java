@@ -6,9 +6,17 @@ package com.hillel.lecture_3;
 public class PassFailChecker {
 
     public String checkNumber(int number) {
-
-//        TODO implements result
         String result = "";
+//        TODO implements result
+        if(number >= 50){
+            result = "PASS";
+        } else {
+            result = "FAIL";
+        }
+        System.out.println("DONE");
+
+
+
 
         return result;
     }
